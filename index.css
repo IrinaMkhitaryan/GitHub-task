@@ -1,0 +1,83 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.flexStyle {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+button {
+    background: dimgrey;
+}
+.users {
+    width: 100%;
+    padding: 14px;
+    cursor: pointer;
+    display: block;
+    text-decoration: none;
+    color: black;
+}
+.repos {
+    width: 100%;
+    padding: 14px;
+    cursor: pointer;
+    display: block;
+    text-decoration: none;
+    color: black;
+}
+.usersButton {
+    width: 30%;
+    font-size: 20px;
+}
+
+.repositoriesButton {
+    width: 70%;
+    font-size: 20px;
+}
+.searchUsers {
+    margin-top: 14px;
+}
+.searchRepo {
+    margin-top: 14px;
+}
+.image {
+    width: 80%;
+    border-radius: 10%;
+}
+.userContent {
+    text-align: center;
+    width: 400px;
+    height: 400px;
+}
+#results {
+    margin-top: 20px;
+}
+.container {
+    height: 100%;
+    width: 90%;
+    margin: auto;
+}
+.pagination {
+    width: 100%;
+    margin-top: 20px;
+    text-align: right;
+    margin-bottom: 14px;
+}
+.pagination button {
+    padding: 8px 16px;
+    cursor: pointer;
+}
+.repoContent {
+    display: flex;
+    background: aquamarine;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.repoContent div {
+    margin-right: 14px
+}
+.active {
+    color: snow;
+}
